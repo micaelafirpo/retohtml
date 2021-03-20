@@ -1,0 +1,90 @@
+
+header{
+    background-color: rgba(245,245,245,0.85);
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
+    margin: 0 auto; 
+    display: block;
+}
+#imagen{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.data {
+    font-weight: 400;
+    background-color: olive;
+    opacity: 80%;
+    color: white;
+    display: block;
+    margin: 0 auto; 
+    margin-top: 10px;
+    line-height: 30%;
+    width: 380px;
+    height: 180px;
+    border-radius: 20px;
+
+}
+.boton{
+    
+    color:olive;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 3px;
+    border: solid 1px dimgrey;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.boton:hover{
+    background-color: olive;
+    color:white;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body{
+    background-image: url("https://cache.umusic.com/_sites/_halo/taylorswift/x6/images/WoodsBackground.jpg");
+    background-repeat: no-repeat;       /*el fondo no se repite nunca*/
+    background-size: cover;             /* el fondo cubre toda la pantalla */
+    font-family: 'Sarabun', sans-serif;
+    margin: 0 auto; 
+    color: rgb(41, 41, 41);
+    text-align: center;
+}
+.lyrics{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(125,125,125,0.75);
+    color: white;
+    text-transform: lowercase;
+    font-weight:300;
+    font-size:17px;
+    margin: 0 auto;
+    width: 380px;
+    border-radius: 6px;
+}
+.lyrics p:nth-child(1) {
+    font-style: oblique;
+    
+}
+.coro {
+    font-family: 'Lacquer', cursive;
+    color: rgb(41, 41, 41);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+h5 a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+.cursiva{
+    font-style: italic;
+    font-weight: 700;
+}
